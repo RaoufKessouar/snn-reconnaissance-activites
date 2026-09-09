@@ -1,0 +1,7 @@
+count,true_gesture,true_name,pred_gesture,pred_name
+149,8,Air_Drums,1,Right_Hand_Wave
+115,3,Right_Arm_CW,1,Right_Hand_Wave
+38,3,Right_Arm_CW,8,Air_Drums
+27,8,Air_Drums,3,Right_Arm_CW
+0,1,Right_Hand_Wave,8,Air_Drums
+0,1,Right_Hand_Wave,3,Right_Arm_CW

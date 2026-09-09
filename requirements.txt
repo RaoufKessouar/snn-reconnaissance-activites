@@ -1,0 +1,14 @@
+# Exact non-PyTorch packages captured by W&B during the main experiments.
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.3
+matplotlib==3.10.9
+torchmetrics==1.9.0
+spikingjelly==0.0.0.0.12
+wandb==0.27.2
+tqdm==4.67.3
+opencv-python==4.13.0.92
+h5py==3.16.0
+hdf5plugin==6.0.0
+Pillow==12.2.0
+PyYAML==6.0.3

@@ -1,0 +1,13 @@
+sample_idx,label,class_name,human_chain,total_events,pos_events,neg_events,sample_dir
+30,0,1111,1:Right_Hand_Wave -> 1:Right_Hand_Wave -> 1:Right_Hand_Wave -> 1:Right_Hand_Wave,731700.0,340944.0,390756.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_00030_label_00_class_1111
+621,7,1183,1:Right_Hand_Wave -> 1:Right_Hand_Wave -> 8:Air_Drums -> 3:Right_Arm_CW,506788.0,236404.0,270384.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_00621_label_07_class_1183
+1161,14,1338,1:Right_Hand_Wave -> 3:Right_Arm_CW -> 3:Right_Arm_CW -> 8:Air_Drums,1059988.0,503845.0,556143.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_01161_label_14_class_1338
+1654,21,1831,1:Right_Hand_Wave -> 8:Air_Drums -> 3:Right_Arm_CW -> 1:Right_Hand_Wave,454090.0,217766.0,236324.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_01654_label_21_class_1831
+2309,29,3118,3:Right_Arm_CW -> 1:Right_Hand_Wave -> 1:Right_Hand_Wave -> 8:Air_Drums,1082423.0,505608.0,576815.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_02309_label_29_class_3118
+2885,36,3311,3:Right_Arm_CW -> 3:Right_Arm_CW -> 1:Right_Hand_Wave -> 1:Right_Hand_Wave,1321794.0,633786.0,688008.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_02885_label_36_class_3311
+3414,43,3383,3:Right_Arm_CW -> 3:Right_Arm_CW -> 8:Air_Drums -> 3:Right_Arm_CW,795664.0,364598.0,431066.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_03414_label_43_class_3383
+3974,50,3838,3:Right_Arm_CW -> 8:Air_Drums -> 3:Right_Arm_CW -> 8:Air_Drums,243286.0,117795.0,125491.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_03974_label_50_class_3838
+4532,58,8133,8:Air_Drums -> 1:Right_Hand_Wave -> 3:Right_Arm_CW -> 3:Right_Arm_CW,1060952.0,508198.0,552754.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_04532_label_58_class_8133
+5147,65,8318,8:Air_Drums -> 3:Right_Arm_CW -> 1:Right_Hand_Wave -> 8:Air_Drums,1321687.0,620515.0,701172.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_05147_label_65_class_8318
+5617,72,8811,8:Air_Drums -> 8:Air_Drums -> 1:Right_Hand_Wave -> 1:Right_Hand_Wave,943320.0,466718.0,476602.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_05617_label_72_class_8811
+6300,80,8888,8:Air_Drums -> 8:Air_Drums -> 8:Air_Drums -> 8:Air_Drums,464280.0,215868.0,248412.0,/users/abdekess61/raouf/SResNet/analysis_output_1/01_train_samples/samples/sample_06300_label_80_class_8888

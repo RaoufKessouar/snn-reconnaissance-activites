@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this internship code, please cite the repository and the final report."
+title: "Exploitation de la dynamique temporelle des réseaux de neurones à spikes pour la reconnaissance d'activités"
+type: software
+authors:
+  - family-names: Kessouar
+    given-names: Abderraouf Tarek
+date-released: 2026-09-09
+version: 1.0.0
+keywords:
+  - spiking neural networks
+  - event-based vision
+  - activity recognition
+  - fall detection
+  - temporal dynamics

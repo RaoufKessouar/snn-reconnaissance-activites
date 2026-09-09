@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!*.env.example
+*.key
+*.pem
+
+# Raw data and generated caches
+data/
+*.npz
+*.tar.gz
+*.aedat
+*.hdf5
+*.h5
+
+# Runtime output (may contain personal paths, e-mail addresses or host metadata)
+wandb/
+**/wandb/
+*.log
+*.out
+nohup.*
+**/logs/
+
+# Large exploratory visualisations; aggregate report figures remain versioned
+visualization/lab_gesture_dataset/outputs/
+visualization/lab_gesture_dataset/metadata/manifest.csv
+analysis/**/01_train_samples/samples/
+analysis/**/02_correct_cases/
+analysis/**/03_correct_cases/
+analysis/**/03_wrong_cases/
+analysis/**/04_wrong_cases/
+
+# Only the five documented hand-off checkpoints are versioned
+*.pth
+!experiments/dvsgc_standard/best_model_sresnet38_bs4_accum2_lr1e-4_val.pth
+!experiments/dvsgc_overlap/overlap_078_seq3_T40_neuron_study/checkpoints/best_lif_sub.pth
+!experiments/mad/04_train_chain/best_chain_tdbn.pth
+!experiments/mad/04_train_chain/best_chain_tdbn_L4.pth
+!experiments/mad/06_fall_detect/best_T50_fb2.0_kcurve.pth
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local audit and temporary files
+tmp/
+_audit_backup/
+*.bak

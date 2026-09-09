@@ -1,0 +1,6 @@
+# Install this file on the ETIS GPU servers.  The extra index is required for
+# the exact CUDA 12.4 wheels used during the internship.
+--extra-index-url https://download.pytorch.org/whl/cu124
+-r requirements.txt
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
