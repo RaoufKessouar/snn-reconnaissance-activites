@@ -10,7 +10,7 @@ d'activités issues de caméras événementielles ? La contribution principale e
 un protocole de contrôle qui sépare l'effet de la mémoire de celui de la
 normalisation.
 
-Le [rapport final](docs/report/KESSOUAR_rapport.pdf) donne le contexte
+Le [rapport](docs/report/KESSOUAR_rapport.pdf) donne le contexte
 scientifique complet. L'annexe D sur le flot optique est volontairement hors du
 périmètre de ce dépôt.
 
