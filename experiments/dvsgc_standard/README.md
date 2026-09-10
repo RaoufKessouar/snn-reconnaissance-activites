@@ -15,8 +15,12 @@ difficulté ou le modèle.
 
 ## Résultat
 
-S-ResNet-38 atteint **97,48 % au test** (vs 95,83 ± 0,62 % dans l'article), ce qui
-valide la chaîne de calcul.
+Le rapport indique **97,48 % au test** (contre 95,83 ± 0,62 % dans l'article).
+La trace exacte de ce test n'a pas été retrouvée avec le checkpoint principal :
+ce score doit donc être confirmé en relançant `test.py`. Une trace conservée
+avec un ancien `best_model.pth` indique 86,88 %, mais elle ne porte pas sur le
+checkpoint distribué ici. Voir [RESULTS](../../docs/RESULTS.md) et
+[AUDIT](../../docs/AUDIT.md).
 
 ## Scripts
 
@@ -28,10 +32,12 @@ valide la chaîne de calcul.
 
 ## Checkpoints
 
-- `best_model_sresnet38_bs4_accum2_lr1e-4_val.pth` : modèle principal (97,48 % test).
-- `best_model_constant_lr1e-4_val.pth` : essai à pas d'apprentissage constant.
-- `best_model.pth` / `best_model_val.pth` : versions antérieures.
-- `best_model_first_run.pth` : première implémentation (analyse `analysis/dvsgc_138_run1/`).
+- `best_model_sresnet38_bs4_accum2_lr1e-4_val.pth` : seul checkpoint DVS-GC
+  standard distribué, associé au score de 97,48 % dans le rapport et à
+  réévaluer.
+- `best_model_constant_lr1e-4_val.pth`, `best_model.pth`,
+  `best_model_val.pth` et `best_model_first_run.pth` : versions historiques
+  mentionnées dans les traces, non distribuées dans ce dépôt.
 
 ## Notes
 

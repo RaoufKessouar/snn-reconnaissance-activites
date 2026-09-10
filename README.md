@@ -14,6 +14,11 @@ Le [rapport](docs/report/KESSOUAR_rapport.pdf) donne le contexte
 scientifique complet. L'annexe D sur le flot optique est volontairement hors du
 périmètre de ce dépôt.
 
+> **Pour reprendre le projet de bout en bout :** commencer par le
+> [guide de reprise](docs/GUIDE_REPRISE.md). Il relie l'accès aux données ETIS,
+> l'installation, le prétraitement, les évaluations, les entraînements et les
+> règles de conservation des nouvelles expériences.
+
 ## Résultats essentiels
 
 | Expérience | Modèle | Résultat | Statut de l'audit |
@@ -107,20 +112,23 @@ sont les parcours de référence.
 ## Données et checkpoints
 
 Les données MAD ne sont pas redistribuées. DVS-Gesture doit également être
-installé ou mis en cache séparément. Les chemins, formats, splits par
-participant et variables d'environnement sont décrits dans
-[docs/DATA.md](docs/DATA.md).
+installé ou mis en cache séparément. Les chemins, formats, droits d'accès,
+splits par participant et variables d'environnement sont décrits dans
+[docs/DATA.md](docs/DATA.md). Les données ETIS et ce dépôt privé sont les deux
+parties complémentaires de la transmission.
 
 Cinq checkpoints utiles à la reprise sont inclus. Leurs empreintes SHA-256 sont
 dans [artifacts/SHA256SUMS](artifacts/SHA256SUMS). Les checkpoints
 intermédiaires, journaux W&B et sorties détaillées restent sur
-`cetautomatix` et sont exclus du dépôt public, notamment parce que les
+`cetautomatix` et sont exclus du dépôt Git, notamment parce que les
 métadonnées W&B contiennent des chemins personnels, une adresse électronique et
 des identifiants matériels.
 
 ## Pour poursuivre les recherches
 
-Commencer par [docs/CONTINUATION.md](docs/CONTINUATION.md). Les priorités sont :
+Après le parcours opérationnel du
+[guide de reprise](docs/GUIDE_REPRISE.md), consulter
+[docs/CONTINUATION.md](docs/CONTINUATION.md). Les priorités sont :
 reproduire les résultats avec la recalibration strictement issue de
 l'entraînement, évaluer les modèles sur les mêmes chaînes, répéter plusieurs
 graines et passer de chaînes concaténées à des flux continus.

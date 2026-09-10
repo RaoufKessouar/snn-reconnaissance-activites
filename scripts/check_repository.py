@@ -11,7 +11,9 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = (
     ROOT / "README.md",
+    ROOT / "docs" / "GUIDE_REPRISE.md",
     ROOT / "docs" / "report" / "KESSOUAR_rapport.pdf",
+    ROOT / "docs" / "DATA.md",
     ROOT / "docs" / "RESULTS.md",
     ROOT / "docs" / "AUDIT.md",
     ROOT / "src" / "model.py",
