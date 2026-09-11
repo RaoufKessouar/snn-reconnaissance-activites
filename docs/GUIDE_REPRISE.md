@@ -7,8 +7,8 @@ travaux.
 
 Le projet repose sur deux éléments complémentaires :
 
-1. ce dépôt Git privé, qui contient le code, les protocoles, le rapport, les
-   figures et cinq checkpoints sélectionnés ;
+1. ce dépôt Git technique, destiné à être conservé privé, qui contient le code,
+   les protocoles, le rapport, les figures et cinq checkpoints sélectionnés ;
 2. les espaces ETIS, qui contiennent les données brutes, les caches volumineux
    et l'archive du dossier de travail historique.
 
@@ -36,8 +36,8 @@ nécessaires.
 La personne qui reprend le projet doit disposer :
 
 - d'un compte ETIS et d'un accès SSH au serveur de calcul ;
-- d'un accès en lecture au dépôt GitHub privé
-  `RaoufKessouar/snn-reconnaissance-activites` ;
+- d'un accès en lecture au dépôt GitHub
+  `RaoufKessouar/snn-reconnaissance-activites`, une fois celui-ci privé ;
 - d'un accès durable aux trois emplacements suivants :
 
 | Élément | Emplacement ETIS | Utilité |

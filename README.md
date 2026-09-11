@@ -114,8 +114,8 @@ sont les parcours de référence.
 Les données MAD ne sont pas redistribuées. DVS-Gesture doit également être
 installé ou mis en cache séparément. Les chemins, formats, droits d'accès,
 splits par participant et variables d'environnement sont décrits dans
-[docs/DATA.md](docs/DATA.md). Les données ETIS et ce dépôt privé sont les deux
-parties complémentaires de la transmission.
+[docs/DATA.md](docs/DATA.md). Les données ETIS et ce dépôt technique, destiné à
+être conservé privé, sont les deux parties complémentaires de la transmission.
 
 Cinq checkpoints utiles à la reprise sont inclus. Leurs empreintes SHA-256 sont
 dans [artifacts/SHA256SUMS](artifacts/SHA256SUMS). Les checkpoints
